@@ -28,6 +28,27 @@
     <div class="text-center">
       <h1>SongGen: A Single Stage Auto-regressive Transformer</br> for Text-to-Song Generation</h1>
     </div>
+
+    <p align="center" style="font-size: 5 em; margin-top: 1em">
+      <a href="https://scholar.google.com/citations?user=iELd-Q0AAAAJ">Zihan Liu</a>,  
+      <a href="https://mark12ding.github.io/">Shuangrui Ding</a>,  
+      <a href="https://github.com/rookiexiong7/">Zhixiong Zhang</a>, 
+      <a href="https://lightdxy.github.io/">Xiaoyi Dong</a>,  
+      <a href="https://panzhang0212.github.io/">Pan Zhang</a>,
+      <a href="https://yuhangzang.github.io/">Yuhang Zang</a>,  
+      <a href="https://scholar.google.com/citations?user=sJkqsqkAAAAJ">Yuhang Cao</a>, </br>  
+      <a href="http://dahua.site/">Dahua Lin</a>,  
+      <a href="https://myownskyw7.github.io/">Jiaqi Wang</a> 
+      </p>
+    
+    <p align="center" style="font-size: 8 em; margin-top: 0.5em">
+      <a href=""><img src="https://img.shields.io/badge/arXiv-<color>"></a>
+      <a href="https://github.com/LiuZH-19/SongGen"><img src="https://img.shields.io/badge/Code-red"></a>
+      <a href="https://liuzh-19.github.io/SongGen/"><img src="https://img.shields.io/badge/Demo-yellow"></a>
+      </p>
+
+
+
     <p>
       <b>Abstract.</b>
       Text-to-song generation, the task of creating vocals and accompaniment from textual inputs, poses significant challenges due to domain complexity and data scarcity. Existing approaches often employ multi-stage generation procedures, resulting in cumbersome training and inference pipelines. In this paper, we propose <b>SongGen</b>, a fully open-source, single-stage auto-regressive transformer designed for controllable song generation. The proposed model facilitates fine-grained control over diverse musical attributes, including lyrics and textual descriptions of instrumentation, genre, mood, and timbre, while also offering an optional three-second reference clip for voice cloning. Within a unified auto-regressive framework, SongGen supports two output modes: <b>mixed mode</b>, which generates a mixture of vocals and accompaniment directly, and <b>dual-track mode</b>, which synthesizes them separately for greater flexibility in downstream applications. We eplore diverse token pattern strategies for each mode, leading to notable improvements and valuable insights. Furthermore, we design an automated data preprocessing pipeline with effective quality control. To foster community engagement and future research, we will release our model weights, training code, annotated data, and processing pipeline. 
@@ -82,7 +103,6 @@
             <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/Text-to-Song/Mixed_pro/female-pop-goodbye/ref_voice.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
             <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/Text-to-Song/Mixed_pro/female-pop-goodbye/gen.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
-          <!-- to refine -->
           <tr height=100px>
             <td style="text-align: center">Hanging on by a thread But this is my time now You make me feel like I can hold on Every time I feel weak, You keep me going strong.</td>
             <td style="text-align: center">This pop rock song features a powerful female voice leading the main melody, accompanied by percussion with a steady, driving beat. </td>
@@ -102,7 +122,6 @@
             <td style="text-align: center">N/A</td>
             <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/Text-to-Song/Mixed_pro/female-pop-day/gen.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
-          <!-- A blues rock song is being played. Containing drums that are playing a simple groove along with a blues bassline that is supported by an e-guitar playing the same melody. -->
           <tr height=100px>
             <td style="text-align: center">Sing at the moon and drive through the night.</td>
             <td style="text-align: center">female, guitar, mellow </td>
@@ -115,14 +134,6 @@
             <td style="text-align: center">N/A</td>
             <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/Text-to-Song/Mixed_pro/male-rock-cry/gen.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
           </tr>
-          <!-- <tr height=100px>
-            <td style="text-align: center">I've come to talk with you again. because a vision softly creeping. Left it's seeds while I was sleeping. And the vision that was planted in my brain,Still remains with the sound of silence. </td>
-            <td style="text-align: center"> </td>
-            <td style="text-align: center">N/A</td>
-            <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/Text-to-Song/Mixed_pro/male-pop-seeds/gen.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
-          </tr>
-           -->
-
           
         </tbody>
       </table>
@@ -130,7 +141,7 @@
   </div>
 
   <div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
-    <h3 id="tablecontents" style="text-align: left;">【Interleaving(A-V)】 Text-to-Song Generation<a id="#T2S-Inter" /></h3>
+    <h3 id="tablecontents" style="text-align: left;">【Interleaving(A-V)】 Text-to-Song Generation<a id="T2S-Inter" /></h3>
     <p style="margin-top: 2em">
       In this section, we present samples generated by SongGen in the dual-track mode using the interleaving (A-V) pattern. We display both the original vocal and accompaniment tracks, along with their summed version, which is presented as the first audio.
      
@@ -200,21 +211,17 @@
       <table class="table table-hover" id="gender_table_1">
         <thead>
           <tr>
-            <!-- <th style="text-align: center">ID</th> -->
             <th style="text-align: center">Lyrics</th>
             <th style="text-align: center">Description</Textarea></Textarea></th>
             <th style="text-align: center">Reference Voice </Textarea></Textarea></th>
             <th style="text-align: center">GT</th>
             <th style="text-align: center">Mixed Pro (ours)</Prog></th>
             <th style="text-align: center">Interleaving (A-V) (ours)</th>
-            
-
           </tr>
         </thead>
         <tbody>
           
           <tr height=100px>
-            <!-- <td style="text-align: center">2 [0ISHZQJdeSw]</td> -->
             <td style="text-align: center">For the truth and the being as beaming as the moon queen. You bless my future to be with bismillah. For the soul's anguished love and the moment my brothers programmed these drums.</td>
             <td style="text-align: center">A male vocalist sings this Rap. The tempo is slow with enthusiastic drumming, syncopated piano harmony, digital beats ,keyboard arrangements with vocal backup and a catchy vocal riff. The rap is catchy, youthful, insightful, enthusiastic, intense, passionate, emotional and persuasive. This song is contemporary Rap/Hip-Hop.</td>
             <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/MusicCaps/0ISHZQJdeSw/ref_voice.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
@@ -225,9 +232,7 @@
             </br>Acc. track: <audio controls controlslist="nodownload" class="px-1"> <source src='data/MusicCaps/0ISHZQJdeSw/inter_Acctrack.wav' type="audio/wav">Your browser does not support the audio element.</audio>
             </td>
           </tr>
-          <!-- to refine -->
           <tr height=100px>
-            <!-- <td style="text-align: center">3 [1heMbyumHAo]</td> -->
             <td style="text-align: center">The work to be done. Let the music play on. I'm feeling the vibe, you know I'm feeling good.</td>
             <td style="text-align: center">This is a remix of an R&B soul piece. There is a male vocal singing in a laid-back manner joined by an auto-tuned male vocal. The keyboard provides the melody with a gentle bass guitar playing in the background. The rhythmic structure is composed of the acoustic drums and the percussion playing a medium tempo beat. The atmosphere of the piece is groovy and there is a feelgood aura to it. This piece could be used in the soundtrack of a sitcom.</td>
             <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/MusicCaps/1heMbyumHAo/ref_voice.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
@@ -240,7 +245,6 @@
           </tr>
 
           <tr height=100px>
-            <!-- <td style="text-align: center">3 [iFSaNmZyPQo]</td> -->
             <td style="text-align: center">Singing Radiohead at the top of our lungs With the boombox blaring as we're falling in</td>
             <td style="text-align: center">This pop rock song features a female voice singing the main melody. The song starts off with the sound of folding paper. Then the voice starts singing. This is accompanied by rock drums playing the kick drum. The snare is struck at every alternate count. The reverb effect is added to the percussion. There are no other instruments in this song. This song has a happy mood. This song can be played in an intro scene of a coming-of-age movie.</td>
             <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/MusicCaps/iFSaNmZyPQo/ref_voice.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
@@ -252,7 +256,6 @@
             </td>
           </tr>
           <tr height=100px>
-            <!-- <td style="text-align: center">1 [ZUkh168Nyus]</td> -->
             <td style="text-align: center">And I just can't seem to forget The way your face glows And the way you make me cry</td>
             <td style="text-align: center">A male vocalist sings this smooth Soul melody. The tempo is medium with a mellow piano accompaniment, steady drum machine beats, atmospheric synthesiser and subtle bass with backup vocals. The song is soft, ambient, passionate, emotional, mellifluous ,sentimental and warm. This song is a contemporary R&B/Soul.</td>
             <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/MusicCaps/ZUkh168Nyus/ref_voice.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
@@ -264,7 +267,6 @@
             </td>
           </tr>
           <tr height=100px>
-            <!-- <td style="text-align: center">3 [Zz1Bz1a7yPE]</td> -->
             <td style="text-align: center">The sun is shining, the day is brightening up, happy times are happy times are happy times are here. The sun is shining.</td>
             <td style="text-align: center">The music features a group of female voices singing a melody in unison. The instrumental consists of only percussion drums, African percussion drums to be precise. A shaker can also be heard sounding on every beat. In the background one can hear water sounds. The overall atmosphere is cheerful and uplifting.</td>
             <td style="text-align: center"><audio controls controlslist="nodownload" class="px-1"> <source src='data/MusicCaps/Zz1Bz1a7yPE/ref_voice.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>
