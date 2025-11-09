@@ -17,7 +17,7 @@ redirect_from:
 {% assign url_starbech = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:Tyk-4Ss8FVUC_shieldsio.json" %}
 {% assign url_songgen = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:2osOgNQ5qMEC_shieldsio.json" %}
 {% assign url_songcomposer = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:qjMakFHDy7sC_shieldsio.json" %}
-{% assign url_ctrl = gsDataBaseUrl | append: "google-scholar-stats/ELd-Q0AAAAJ:9yKSN-GCB0IC_shieldsio.json" %}
+{% assign url_ctrl = gsDataBaseUrl | append:"google-scholar-stats/iELd-Q0AAAAJ:9yKSN-GCB0IC_shieldsio.json" %}
 {% assign url_esg = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:u-x6o8ySG0sC_shieldsio.json" %}
 {% assign url_ada = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:u5HHmVD_uO8C_shieldsio.json" %}
 
@@ -49,14 +49,14 @@ Please feel free to contact me if you believe my background and interests align 
 - *2025.05*: &nbsp;🎉🎉 SongGen is accepted by ICML 2025.
 - *2025.05*: &nbsp;🎉🎉 SongComposer is accpeted by ACL 2025 main conference.
 
-# 📝 Publications  <a href='https://scholar.google.com/citations?user=iELd-Q0AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+# 📝 Publications   <a href='https://scholar.google.com/citations?user=iELd-Q0AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 <!-- <p>（<b>*</b> equal contribution, <b>&dagger;</b> corresponding authors） </p> -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/starbench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [STAR-Bench: Probing Deep Spatio-Temporal Reasoning as Audio 4D Intelligence](https://arxiv.org/abs/2510.24693) ***[arXiv]***
 
-**Zihan Liu**, Shuangrui Ding, Zhixiong Zhang, Xiaoyi Dong, Pan Zhang, Yuhang Zang, Yuhang Cao, Dahua Lin, Jiaqi Wang
+<b>Zihan Liu*</b>, Zhikang Niu*, Qiuyang Xiao, Zhisheng Zheng, Ruoqi Yuan, Yuhang Zang, Yuhang Cao, Xiaoyi Dong, Jianze Liang, Xie Chen, Leilei Sun, Dahua Lin, Jiaqi Wang
 
 <span>We formalize audio 4D intelligence, defined as reasoning over sound dynamics across time and 3D space, and introduce STAR-Bench to measure it, with a focus on linguistically hard-to-describe acoustic cues. </span>
 
@@ -70,7 +70,7 @@ Please feel free to contact me if you believe my background and interests align 
 <div class='paper-box-text' markdown="1">
 [SongGen: A Single Stage Auto-regressive Transformer for Text-to-Song Generation](https://arxiv.org/abs/2502.13128) ***[ICML 2025]***
 
-**Zihan Liu**, Shuangrui Ding, Zhixiong Zhang, Xiaoyi Dong, Pan Zhang, Yuhang Zang, Yuhang Cao, Dahua Lin, Jiaqi Wang
+<b>Zihan Liu</b>, Shuangrui Ding, Zhixiong Zhang, Xiaoyi Dong, Pan Zhang, Yuhang Zang, Yuhang Cao, Dahua Lin, Jiaqi Wang
 
 <span>A single-stage auto-regressive transformer for text-to-song generation that offers versatile control via lyrics, descriptive text, and an optional reference voice while supporting both mixed and dual-track modes to meet diverse requirements</span>
 
@@ -84,7 +84,7 @@ Please feel free to contact me if you believe my background and interests align 
 <div class='paper-box-text' markdown="1">
 [SongComposer: A Large Language Model for Lyric and Melody Generation in Song Composition](https://arxiv.org/abs/2402.17645) ***[ACL main 2025]***
 
-Shuangrui Ding*, **Zihan Liu***, Xiaoyi Dong, Pan Zhang, Rui Qian, Junhao Huang, Conghui He, Dahua Lin, Jiaqi Wang
+Shuangrui Ding*, <b>Zihan Liu*</b>, Xiaoyi Dong, Pan Zhang, Rui Qian, Junhao Huang, Conghui He, Dahua Lin, Jiaqi Wang
 
 <span>A language large model that understands and generates melodies and lyrics in symbolic song representations.</span>
 
@@ -98,7 +98,7 @@ Shuangrui Ding*, **Zihan Liu***, Xiaoyi Dong, Pan Zhang, Rui Qian, Junhao Huang,
 <div class='paper-box-text' markdown="1">
 [An NCDE-based framework for universal representation learning of time series](https://www.ijcai.org/proceedings/2024/0511.pdf) ***[IJCAI 2024]***
 
-**Zihan Liu**, Bowen Du, Junchen Ye, Xianqing Wen, Leilei Sun
+<b>Zihan Liu</b>, Bowen Du, Junchen Ye, Xianqing Wen, Leilei Sun
 
 <span>Built on a NCDE backbone, the model learns general time-series representations via joint reconstruction and contrastive self-supervision, delivering strong performance across diverse downstream tasks and showing notable robustness to missing data. </span>
 
@@ -113,7 +113,7 @@ Shuangrui Ding*, **Zihan Liu***, Xiaoyi Dong, Pan Zhang, Rui Qian, Junhao Huang,
 <div class='paper-box-text' markdown="1">
 [Learning the evolutionary and multi-scale graph structure for multivariate time series forecasting](https://arxiv.org/pdf/2206.13816) ***[KDD 2022]***
 
-Junchen Ye*, **Zihan Liu***, Bowen Du, Leilei Sun, Weimiao Li, Yanjie Fu, Hui Xiong
+Junchen Ye*, ,<b>Zihan Liu*</b>, Bowen Du, Leilei Sun, Weimiao Li, Yanjie Fu, Hui Xiong
 
 <span>We propose an evolutionary and multi-scale graph learning framework that models dynamic dependencies among multivariate time series, achieving superior forecasting performance across domains such as transportation, energy, and finance.</span>
 
@@ -126,7 +126,7 @@ Junchen Ye*, **Zihan Liu***, Bowen Du, Leilei Sun, Weimiao Li, Yanjie Fu, Hui Xi
 <div class='paper-box-text' markdown="1">
 [Adaptive spatio-temporal graph neural network for traffic forecasting](https://arxiv.org/pdf/2206.13816) ***[KDD 2022]***
 
-Xuxiang Ta, **Zihan Liu**, Xiao Hu, Le Yu, Leilei Sun, Bowen Du
+Xuxiang Ta, <b>Zihan Liu</b>, Xiao Hu, Le Yu, Leilei Sun, Bowen Du
 
 <span>We propose a dynamic traffic graph structure with macro-level self-learning and micro-level self-adaptation, demonstrating strong interpretability and effectiveness in traffic forecasting. </span>
 
