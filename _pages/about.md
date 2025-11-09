@@ -100,7 +100,7 @@ Shuangrui Ding*, <b>Zihan Liu*</b>, Xiaoyi Dong, Pan Zhang, Rui Qian, Junhao Hua
 
 <b>Zihan Liu</b>, Bowen Du, Junchen Ye, Xianqing Wen, Leilei Sun
 
-<span>Built on a NCDE backbone, the model learns general time-series representations via joint reconstruction and contrastive self-supervision, delivering strong performance across diverse downstream tasks and showing notable robustness to missing data. </span>
+<span>An NCDE-based framework learns universal time-series representations via joint reconstruction and contrastive self-supervision, delivering strong performance across diverse downstream tasks and showing notable robustness to missing data. </span>
 
 
 [**Github** ![](https://img.shields.io/github/stars/LiuZH-19/CTRL)](https://github.com/LiuZH-19/CTRL)｜
@@ -124,7 +124,7 @@ Junchen Ye*, ,<b>Zihan Liu*</b>, Bowen Du, Leilei Sun, Weimiao Li, Yanjie Fu, Hu
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2022</div><img src='images/kbs2022.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Adaptive spatio-temporal graph neural network for traffic forecasting](https://arxiv.org/pdf/2206.13816) ***[KDD 2022]***
+[Adaptive spatio-temporal graph neural network for traffic forecasting](https://www.sciencedirect.com/science/article/abs/pii/S0950705122000508) ***[KDD 2022]***
 
 Xuxiang Ta, <b>Zihan Liu</b>, Xiao Hu, Le Yu, Leilei Sun, Bowen Du
 
