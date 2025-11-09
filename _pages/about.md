@@ -51,12 +51,12 @@ Please feel free to contact me if you believe my background and interests align 
 
 # 📝 Publications   <a href='https://scholar.google.com/citations?user=iELd-Q0AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
-<!-- <p>（<b>*</b> equal contribution, <b>&dagger;</b> corresponding authors） </p> -->
+<!-- <p>（<b><sup>*</sup></b> equal contribution, <b>&dagger;</b> corresponding authors） </p> -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/starbench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [STAR-Bench: Probing Deep Spatio-Temporal Reasoning as Audio 4D Intelligence](https://arxiv.org/abs/2510.24693) ***[arXiv]***
 
-<b>Zihan Liu*</b>, Zhikang Niu*, Qiuyang Xiao, Zhisheng Zheng, Ruoqi Yuan, Yuhang Zang, Yuhang Cao, Xiaoyi Dong, Jianze Liang, Xie Chen, Leilei Sun, Dahua Lin, Jiaqi Wang
+<b>Zihan Liu<sup>*</sup></b>, Zhikang Niu<sup>*</sup>, Qiuyang Xiao, Zhisheng Zheng, Ruoqi Yuan, Yuhang Zang, Yuhang Cao, Xiaoyi Dong, Jianze Liang, Xie Chen, Leilei Sun, Dahua Lin, Jiaqi Wang
 
 <span>We formalize audio 4D intelligence, defined as reasoning over sound dynamics across time and 3D space, and introduce STAR-Bench to measure it, with a focus on linguistically hard-to-describe acoustic cues. </span>
 
@@ -84,7 +84,7 @@ Please feel free to contact me if you believe my background and interests align 
 <div class='paper-box-text' markdown="1">
 [SongComposer: A Large Language Model for Lyric and Melody Generation in Song Composition](https://arxiv.org/abs/2402.17645) ***[ACL main 2025]***
 
-Shuangrui Ding*, <b>Zihan Liu*</b>, Xiaoyi Dong, Pan Zhang, Rui Qian, Junhao Huang, Conghui He, Dahua Lin, Jiaqi Wang
+Shuangrui Ding<sup>*</sup>, <b>Zihan Liu<sup>*</sup></b>, Xiaoyi Dong, Pan Zhang, Rui Qian, Junhao Huang, Conghui He, Dahua Lin, Jiaqi Wang
 
 <span>A language large model that understands and generates melodies and lyrics in symbolic song representations.</span>
 
@@ -113,7 +113,7 @@ Shuangrui Ding*, <b>Zihan Liu*</b>, Xiaoyi Dong, Pan Zhang, Rui Qian, Junhao Hua
 <div class='paper-box-text' markdown="1">
 [Learning the evolutionary and multi-scale graph structure for multivariate time series forecasting](https://arxiv.org/pdf/2206.13816) ***[KDD 2022]***
 
-Junchen Ye*, ,<b>Zihan Liu*</b>, Bowen Du, Leilei Sun, Weimiao Li, Yanjie Fu, Hui Xiong
+Junchen Ye<sup>*</sup>, <b>Zihan Liu<sup>*</sup></b>, Bowen Du, Leilei Sun, Weimiao Li, Yanjie Fu, Hui Xiong
 
 <span>We propose an evolutionary and multi-scale graph learning framework that models dynamic dependencies among multivariate time series, achieving superior forecasting performance across domains such as transportation, energy, and finance.</span>
 
