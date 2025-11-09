@@ -124,7 +124,7 @@ Junchen Ye<sup>*</sup>, <b>Zihan Liu<sup>*</sup></b>, Bowen Du, Leilei Sun, Weim
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2022</div><img src='images/kbs2022.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Adaptive spatio-temporal graph neural network for traffic forecasting](https://www.sciencedirect.com/science/article/abs/pii/S0950705122000508) ***[KDD 2022]***
+[Adaptive spatio-temporal graph neural network for traffic forecasting](https://www.sciencedirect.com/science/article/abs/pii/S0950705122000508) ***[KBS 2022]***
 
 Xuxiang Ta, <b>Zihan Liu</b>, Xiao Hu, Le Yu, Leilei Sun, Bowen Du
 
