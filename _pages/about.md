@@ -33,11 +33,11 @@ Hi👋 nice to meet you!
 <br>I am a third-year Ph.D. student in the joint Ph.D. program between <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a> and <a href="https://www.buaa.edu.cn/">Beihang University</a>, supervised by <a href="http://dahua.site/">Prof. Dahua Lin</a>. 
 Prior to that, I obtained my Bachelor’s degree in 2021 and completed two years of master’s study at Beihang University under the supervision of <a href="https://scholar.google.com/citations?user=QVHvhM4AAAAJ">Prof. Leilei Sun</a>, where my research focused on spatio-temporal data mining and time series analysis.
 
-<br>Since beginning my Ph.D., I have been focusing on:
+<br><br>Since beginning my Ph.D., I have been focusing on:
 <br><b>◆ Multimodal Large Language Models (MLLMs): </b><i>Large Audio-Language Models (LALMs), Omni Language Models (OLMs), Audio-Visual Alignment / Perception / Reasoning, ... </i>
 <br><b>◆ Audio Generation: </b><i>Text-to-Song Generation, Controllable Song Generation & Editing, Spatial Audio Generation, ...</i>
 
-<br>
+<br><br>
 <font  style="color: #bf0000"><b>I am always open to research discussions and collaborations!</b></font>
  <br><font style="color: #bf0000"><b>I expect to graduate in 2027 and am currently seeking internship opportunities. 
 Please feel free to contact me if you believe my background and interests align with your work! 

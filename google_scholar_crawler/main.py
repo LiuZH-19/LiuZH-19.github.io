@@ -42,9 +42,10 @@ class RobustGoogleScholarScraper:
     """
     A robust scraper for Google Scholar profiles.
     """
-    def __init__(self, scholar_id, output_dir='.'):
+    def __init__(self, scholar_id, output_dir='./results/'):
         self.scholar_id = scholar_id
         self.output_dir = output_dir
+        os.makedirs(self.output_dir, exist_ok=True)
         self.is_github_actions = os.getenv('GITHUB_ACTIONS') == 'true'
         self.main_json_path = os.path.join(self.output_dir, 'gs_data.json')
         self._setup_scholarly()
