@@ -16,43 +16,132 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
+<div style="font-family:Georgia">
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+Hi👋 nice to meet you!
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+I am a third-year Ph.D. student in the joint Ph.D. program between <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a> and <a href="https://www.buaa.edu.cn/">Beihang University</a>, supervised by <a href="http://dahua.site/">Prof. Dahua Lin</a>. 
+Prior to that, I obtained my Bachelor’s degree in 2021 and completed two years of master’s study at Beihang University under the supervision of <a href="https://scholar.google.com/citations?user=QVHvhM4AAAAJ">Prof. Leilei Sun</a>, where my research focused on spatio-temporal data mining and time series analysis.
 
+Since beginning my Ph.D., I have been focusing on:
+<br><b>◆ Multimodal Large Language Models (MLLMs): </b><i>Large Audio-Language Models (LALMs), Omni Language Models (OLMs), Audio-Visual Alignment / Perception / Reasoning, ... </i>
+<br><b>◆ Audio Generation: </b><i>Text-to-Song Generation, Controllable Song Generation & Editing, Spatial Audio Generation, ...</i>
+
+<font  style="color: #bf0000"><b>I am always open to research discussions and collaborations!</b></font>
+ <br><font style="color: #bf0000"><b>I expect to graduate in 2027 and am currently seeking internship opportunities. 
+Please feel free to contact me if you believe my background and interests align with your work! 
+ </b></font> <!-- #0016bfff -->
+ <br><b>Email:</b>&nbsp; <span style="background: #d6eef8">liuzihan@buaa.edu.cn</span>&emsp;&emsp; <b>WeChat:</b>&nbsp; <span style="background: #d6eef8">ZinniaL19</span> 
+</div>
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.05*: &nbsp;🎉🎉 SongGen is accepted by ICML 2025.
+- *2025.05*: &nbsp;🎉🎉 SongComposer is accpeted by ACL 2025 main conference.
 
-# 📝 Publications 
+# 📝 Publications  
+<a href='https://scholar.google.com/citations?user=oWXEaQoAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<!-- <p>（<b>*</b> equal contribution, <b>&dagger;</b> corresponding authors） </p> -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/starbench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+[STAR-Bench: Probing Deep Spatio-Temporal Reasoning as Audio 4D Intelligence](https://arxiv.org/abs/2510.24693) ***[arXiv]***
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+**Zihan Liu**, Shuangrui Ding, Zhixiong Zhang, Xiaoyi Dong, Pan Zhang, Yuhang Zang, Yuhang Cao, Dahua Lin, Jiaqi Wang
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+<span>We formalize audio 4D intelligence, defined as reasoning over sound dynamics across time and 3D space, and introduce STAR-Bench to measure it, with a focus on linguistically hard-to-describe acoustic cues. </span>
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Homepage**](https://internlm.github.io/StarBench/)|
+[**Github** ![](https://img.shields.io/github/stars/InternLM/StarBench)](https://github.com/InternLM/StarBench)|
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&citation_for_view=iELd-Q0AAAAJ:Tyk-4Ss8FVUC'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/icml2025_songgen.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[SongGen: A Single Stage Auto-regressive Transformer for Text-to-Song Generation](https://arxiv.org/abs/2502.13128) ***[ICML 2025]***
+
+**Zihan Liu**, Shuangrui Ding, Zhixiong Zhang, Xiaoyi Dong, Pan Zhang, Yuhang Zang, Yuhang Cao, Dahua Lin, Jiaqi Wang
+
+<span>A single-stage auto-regressive transformer for text-to-song generation that offers versatile control via lyrics, descriptive text, and an optional reference voice while supporting both mixed and dual-track modes to meet diverse requirements</span>
+
+[**Homepage**](https://liuzh-19.github.io/SongGen/)|
+[**Github** ![](https://img.shields.io/github/stars/LiuZH-19/SongGen)](https://github.com/LiuZH-19/SongGen)|
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&sortby=pubdate&citation_for_view=iELd-Q0AAAAJ:2osOgNQ5qMEC'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025</div><img src='images/acl2025_songcomposer.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[SongComposer: A Large Language Model for Lyric and Melody Generation in Song Composition](https://arxiv.org/abs/2402.17645) ***[ACL main 2025]***
+
+Shuangrui Ding*, **Zihan Liu***, Xiaoyi Dong, Pan Zhang, Rui Qian, Junhao Huang, Conghui He, Dahua Lin, Jiaqi Wang
+
+<span>A language large model that understands and generates melodies and lyrics in symbolic song representations.</span>
+
+[**Homepage**](https://pjlab-songcomposer.github.io/)|
+[**Github** ![](https://img.shields.io/github/stars/pjlab-songcomposer/songcomposer)](https://github.com/pjlab-songcomposer/songcomposer)｜
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&sortby=pubdate&citation_for_view=iELd-Q0AAAAJ:qjMakFHDy7sC'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCAI 2024</div><img src='images/ijcai2024.png' alt="sym" width="100%"></div></div>   
+<div class='paper-box-text' markdown="1">
+[An NCDE-based framework for universal representation learning of time series](https://www.ijcai.org/proceedings/2024/0511.pdf) ***[IJCAI 2024]***
+
+**Zihan Liu**, Bowen Du, Junchen Ye, Xianqing Wen, Leilei Sun
+
+<span>Built on a NCDE backbone, the model learns general time-series representations via joint reconstruction and contrastive self-supervision, delivering strong performance across diverse downstream tasks and showing notable robustness to missing data. </span>
+
+
+[**Github** ![](https://img.shields.io/github/stars/LiuZH-19/CTRL)](https://github.com/LiuZH-19/CTRL)｜
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&citation_for_view=iELd-Q0AAAAJ:9yKSN-GCB0IC'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2022</div><img src='images/kdd2022_esg.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Learning the evolutionary and multi-scale graph structure for multivariate time series forecasting](https://arxiv.org/pdf/2206.13816) ***[KDD 2022]***
+
+Junchen Ye*, **Zihan Liu***, Bowen Du, Leilei Sun, Weimiao Li, Yanjie Fu, Hui Xiong
+
+<span>We propose an evolutionary and multi-scale graph learning framework that models dynamic dependencies among multivariate time series, achieving superior forecasting performance across domains such as transportation, energy, and finance.</span>
+
+[**Github** ![](https://img.shields.io/github/stars/LiuZH-19/ESG)](https://github.com/LiuZH-19/ESG)｜
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&sortby=pubdate&citation_for_view=iELd-Q0AAAAJ:u-x6o8ySG0sC'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2022</div><img src='images/kbs2022.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Adaptive spatio-temporal graph neural network for traffic forecasting](https://arxiv.org/pdf/2206.13816) ***[KDD 2022]***
+
+Xuxiang Ta, **Zihan Liu**, Xiao Hu, Le Yu, Leilei Sun, Bowen Du
+
+<span>We propose a dynamic traffic graph structure with macro-level self-learning and micro-level self-adaptation, demonstrating strong interpretability and effectiveness in traffic forecasting. </span>
+
+[**Github** ![](https://img.shields.io/github/stars/LiuZH-19/Ada-STNet)](https://github.com/LiuZH-19/Ada-STNet)｜
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&sortby=pubdate&citation_for_view=iELd-Q0AAAAJ:u5HHmVD_uO8C'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+</div>
+</div>
+
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2023, 2024, 2025* 1st Prize, Academic Outstanding Scholarship.
+- *2022.10*, National Scholarship, Ministry of Education of PRC.
+- *2021.09*, Graduate Entrance Scholarship.
+- *2021.06*, Excellent Bachelor’s Thesis，Outstanding Undergraduate Graduate. 
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2023.09 - Present*,  Ph.D. Candidate, Joint Ph.D. Program between Shanghai AI Laboratory and Beihang University.
+- *2021.09 - 2023.06*, M.Sc. in Computer Science and Technology, Beihang University (later transferred to the Ph.D. program).
+- *2017.09 - 2021.06*, B.Sc. in Computure Science and Technology, Beihang University.
+ 
+# 🖥️ Services
+- Conference reviewer for ICLR’25
+<!-- # 💬 Invited Talks -->
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+<!-- # 💻 Internships -->
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+
+
