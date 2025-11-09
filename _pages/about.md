@@ -14,19 +14,30 @@ redirect_from:
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+{% assign url_starbech = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:Tyk-4Ss8FVUC_shieldsio.json" %}
+{% assign url_songgen = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:2osOgNQ5qMEC_shieldsio.json" %}
+{% assign url_songcomposer = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:qjMakFHDy7sC_shieldsio.json" %}
+{% assign url_ctrl = gsDataBaseUrl | append: "google-scholar-stats/ELd-Q0AAAAJ:9yKSN-GCB0IC_shieldsio.json" %}
+{% assign url_esg = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:u-x6o8ySG0sC_shieldsio.json" %}
+{% assign url_ada = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:u5HHmVD_uO8C_shieldsio.json" %}
+
+
+
+
 
 <span class='anchor' id='about-me'></span>
 <div style="font-family:Georgia">
 
 Hi👋 nice to meet you!
 
-I am a third-year Ph.D. student in the joint Ph.D. program between <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a> and <a href="https://www.buaa.edu.cn/">Beihang University</a>, supervised by <a href="http://dahua.site/">Prof. Dahua Lin</a>. 
+<br>I am a third-year Ph.D. student in the joint Ph.D. program between <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a> and <a href="https://www.buaa.edu.cn/">Beihang University</a>, supervised by <a href="http://dahua.site/">Prof. Dahua Lin</a>. 
 Prior to that, I obtained my Bachelor’s degree in 2021 and completed two years of master’s study at Beihang University under the supervision of <a href="https://scholar.google.com/citations?user=QVHvhM4AAAAJ">Prof. Leilei Sun</a>, where my research focused on spatio-temporal data mining and time series analysis.
 
-Since beginning my Ph.D., I have been focusing on:
+<br>Since beginning my Ph.D., I have been focusing on:
 <br><b>◆ Multimodal Large Language Models (MLLMs): </b><i>Large Audio-Language Models (LALMs), Omni Language Models (OLMs), Audio-Visual Alignment / Perception / Reasoning, ... </i>
 <br><b>◆ Audio Generation: </b><i>Text-to-Song Generation, Controllable Song Generation & Editing, Spatial Audio Generation, ...</i>
 
+<br>
 <font  style="color: #bf0000"><b>I am always open to research discussions and collaborations!</b></font>
  <br><font style="color: #bf0000"><b>I expect to graduate in 2027 and am currently seeking internship opportunities. 
 Please feel free to contact me if you believe my background and interests align with your work! 
@@ -38,8 +49,7 @@ Please feel free to contact me if you believe my background and interests align 
 - *2025.05*: &nbsp;🎉🎉 SongGen is accepted by ICML 2025.
 - *2025.05*: &nbsp;🎉🎉 SongComposer is accpeted by ACL 2025 main conference.
 
-# 📝 Publications  
-<a href='https://scholar.google.com/citations?user=oWXEaQoAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+# 📝 Publications  <a href='https://scholar.google.com/citations?user=iELd-Q0AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 <!-- <p>（<b>*</b> equal contribution, <b>&dagger;</b> corresponding authors） </p> -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/starbench.png' alt="sym" width="100%"></div></div>
@@ -52,7 +62,7 @@ Please feel free to contact me if you believe my background and interests align 
 
 [**Homepage**](https://internlm.github.io/StarBench/)|
 [**Github** ![](https://img.shields.io/github/stars/InternLM/StarBench)](https://github.com/InternLM/StarBench)|
-<a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&citation_for_view=iELd-Q0AAAAJ:Tyk-4Ss8FVUC'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&citation_for_view=iELd-Q0AAAAJ:Tyk-4Ss8FVUC'><img src="https://img.shields.io/endpoint?url={{ url_starbech | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 </div>
 </div>
 
@@ -66,7 +76,7 @@ Please feel free to contact me if you believe my background and interests align 
 
 [**Homepage**](https://liuzh-19.github.io/SongGen/)|
 [**Github** ![](https://img.shields.io/github/stars/LiuZH-19/SongGen)](https://github.com/LiuZH-19/SongGen)|
-<a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&sortby=pubdate&citation_for_view=iELd-Q0AAAAJ:2osOgNQ5qMEC'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&sortby=pubdate&citation_for_view=iELd-Q0AAAAJ:2osOgNQ5qMEC'><img src="https://img.shields.io/endpoint?url={{ url_songgen | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 </div>
 </div>
 
@@ -80,7 +90,7 @@ Shuangrui Ding*, **Zihan Liu***, Xiaoyi Dong, Pan Zhang, Rui Qian, Junhao Huang,
 
 [**Homepage**](https://pjlab-songcomposer.github.io/)|
 [**Github** ![](https://img.shields.io/github/stars/pjlab-songcomposer/songcomposer)](https://github.com/pjlab-songcomposer/songcomposer)｜
-<a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&sortby=pubdate&citation_for_view=iELd-Q0AAAAJ:qjMakFHDy7sC'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&sortby=pubdate&citation_for_view=iELd-Q0AAAAJ:qjMakFHDy7sC'><img src="https://img.shields.io/endpoint?url={{ url_songcomposer | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 </div>
 </div>
 
@@ -94,7 +104,7 @@ Shuangrui Ding*, **Zihan Liu***, Xiaoyi Dong, Pan Zhang, Rui Qian, Junhao Huang,
 
 
 [**Github** ![](https://img.shields.io/github/stars/LiuZH-19/CTRL)](https://github.com/LiuZH-19/CTRL)｜
-<a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&citation_for_view=iELd-Q0AAAAJ:9yKSN-GCB0IC'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&citation_for_view=iELd-Q0AAAAJ:9yKSN-GCB0IC'><img src="https://img.shields.io/endpoint?url={{ url_ctrl | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 </div>
 </div>
 
@@ -108,7 +118,7 @@ Junchen Ye*, **Zihan Liu***, Bowen Du, Leilei Sun, Weimiao Li, Yanjie Fu, Hui Xi
 <span>We propose an evolutionary and multi-scale graph learning framework that models dynamic dependencies among multivariate time series, achieving superior forecasting performance across domains such as transportation, energy, and finance.</span>
 
 [**Github** ![](https://img.shields.io/github/stars/LiuZH-19/ESG)](https://github.com/LiuZH-19/ESG)｜
-<a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&sortby=pubdate&citation_for_view=iELd-Q0AAAAJ:u-x6o8ySG0sC'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&sortby=pubdate&citation_for_view=iELd-Q0AAAAJ:u-x6o8ySG0sC'><img src="https://img.shields.io/endpoint?url={{ url_esg | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 </div>
 </div>
 
@@ -121,16 +131,16 @@ Xuxiang Ta, **Zihan Liu**, Xiao Hu, Le Yu, Leilei Sun, Bowen Du
 <span>We propose a dynamic traffic graph structure with macro-level self-learning and micro-level self-adaptation, demonstrating strong interpretability and effectiveness in traffic forecasting. </span>
 
 [**Github** ![](https://img.shields.io/github/stars/LiuZH-19/Ada-STNet)](https://github.com/LiuZH-19/Ada-STNet)｜
-<a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&sortby=pubdate&citation_for_view=iELd-Q0AAAAJ:u5HHmVD_uO8C'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&sortby=pubdate&citation_for_view=iELd-Q0AAAAJ:u5HHmVD_uO8C'><img src="https://img.shields.io/endpoint?url={{ url_ada | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 </div>
 </div>
 
 
 # 🎖 Honors and Awards
-- *2023, 2024, 2025* 1st Prize, Academic Outstanding Scholarship.
+- *2023, 2024, 2025*, 1st Prize, Academic Outstanding Scholarship.
 - *2022.10*, National Scholarship, Ministry of Education of PRC.
 - *2021.09*, Graduate Entrance Scholarship.
-- *2021.06*, Excellent Bachelor’s Thesis，Outstanding Undergraduate Graduate. 
+- *2021.06*, Excellent Bachelor’s Thesis; Outstanding Undergraduate Graduate. 
 
 # 📖 Educations
 - *2023.09 - Present*,  Ph.D. Candidate, Joint Ph.D. Program between Shanghai AI Laboratory and Beihang University.
