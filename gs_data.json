@@ -1,0 +1,150 @@
+{
+  "container_type": "Author",
+  "filled": [
+    "basics",
+    "publications",
+    "indices",
+    "counts"
+  ],
+  "scholar_id": "iELd-Q0AAAAJ",
+  "source": "AUTHOR_PROFILE_PAGE",
+  "name": "Zihan Liu",
+  "url_picture": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=iELd-Q0AAAAJ&citpid=2",
+  "affiliation": "Beihang University, Shanghai AI Laboratory",
+  "organization": 4195491161237271030,
+  "interests": [
+    "Multimodal LLM",
+    "Audio Understanding & Generation",
+    "Audio-Visual"
+  ],
+  "email_domain": "@buaa.edu.cn",
+  "homepage": "https://liuzh-19.github.io/",
+  "citedby": 421,
+  "publications": {
+    "iELd-Q0AAAAJ:u5HHmVD_uO8C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Adaptive spatio-temporal graph neural network for traffic forecasting",
+        "pub_year": "2022",
+        "citation": "Knowledge-based systems 242, 108199, 2022"
+      },
+      "filled": false,
+      "author_pub_id": "iELd-Q0AAAAJ:u5HHmVD_uO8C",
+      "num_citations": 169,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10094465429252383762",
+      "cites_id": [
+        "10094465429252383762"
+      ]
+    },
+    "iELd-Q0AAAAJ:u-x6o8ySG0sC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Learning the evolutionary and multi-scale graph structure for multivariate time series forecasting",
+        "pub_year": "2022",
+        "citation": "Proceedings of the 28th ACM SIGKDD conference on knowledge discovery and …, 2022"
+      },
+      "filled": false,
+      "author_pub_id": "iELd-Q0AAAAJ:u-x6o8ySG0sC",
+      "num_citations": 167,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11801983073968992087",
+      "cites_id": [
+        "11801983073968992087"
+      ]
+    },
+    "iELd-Q0AAAAJ:qjMakFHDy7sC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "SongComposer: A Large Language Model for Lyric and Melody Generation in Song Composition",
+        "pub_year": "2025",
+        "citation": "Proceedings of the 63rd Annual Meeting of the Association for Computational …, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "iELd-Q0AAAAJ:qjMakFHDy7sC",
+      "num_citations": 60,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10770655587875024512,3922673194942037792",
+      "cites_id": [
+        "10770655587875024512",
+        "3922673194942037792"
+      ]
+    },
+    "iELd-Q0AAAAJ:2osOgNQ5qMEC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Songgen: A single stage auto-regressive transformer for text-to-song generation",
+        "pub_year": "2025",
+        "citation": "arXiv preprint arXiv:2502.13128, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "iELd-Q0AAAAJ:2osOgNQ5qMEC",
+      "num_citations": 17,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14899239961049231227",
+      "cites_id": [
+        "14899239961049231227"
+      ]
+    },
+    "iELd-Q0AAAAJ:9yKSN-GCB0IC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "An NCDE-based framework for universal representation learning of time series",
+        "pub_year": "2024",
+        "citation": "Proceedings of the Thirty-Third International Joint Conference on Artificial …, 2024"
+      },
+      "filled": false,
+      "author_pub_id": "iELd-Q0AAAAJ:9yKSN-GCB0IC",
+      "num_citations": 4,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8951378694466547571",
+      "cites_id": [
+        "8951378694466547571"
+      ]
+    },
+    "iELd-Q0AAAAJ:IjCSPb-OGe4C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Evolving graph structure learning for multivariate time series forecasting",
+        "pub_year": "2025",
+        "citation": "Knowledge-Based Systems 315, 113190, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "iELd-Q0AAAAJ:IjCSPb-OGe4C",
+      "num_citations": 3,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16774628823679998179",
+      "cites_id": [
+        "16774628823679998179"
+      ]
+    },
+    "iELd-Q0AAAAJ:Tyk-4Ss8FVUC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "STAR-Bench: Probing Deep Spatio-Temporal Reasoning as Audio 4D Intelligence",
+        "pub_year": "2025",
+        "citation": "arXiv preprint arXiv:2510.24693, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "iELd-Q0AAAAJ:Tyk-4Ss8FVUC",
+      "num_citations": 1,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13422079671837627496",
+      "cites_id": [
+        "13422079671837627496"
+      ]
+    }
+  },
+  "citedby5y": 420,
+  "hindex": 4,
+  "hindex5y": 4,
+  "i10index": 4,
+  "i10index5y": 4,
+  "cites_per_year": {
+    "2022": 5,
+    "2023": 68,
+    "2024": 129,
+    "2025": 216
+  },
+  "updated": "2025-12-06 08:35:39"
+}
