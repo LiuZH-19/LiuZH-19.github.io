@@ -87,6 +87,53 @@
 
 }
 
+.paper-box.compact-paper {
+    align-items: flex-start;
+
+    .paper-box-text {
+        max-width: 100%;
+        padding-left: 0;
+    }
+}
+
+.focus-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 1rem 0 1.5rem 0;
+
+    @include breakpoint($medium) {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+.focus-item {
+    border-left: 4px solid #00369f;
+    background: #f7f9fc;
+    padding: 1rem 1.1rem;
+    min-height: 10rem;
+
+    b {
+        display: block;
+        margin-bottom: .6rem;
+        color: #1f2a44;
+    }
+
+    span {
+        display: block;
+        font-size: .92em;
+        line-height: 1.55;
+    }
+}
+
+.experience-box,
+.project-list {
+    border-left: 4px solid #00369f;
+    background: #f7f9fc;
+    padding: 1rem 1.25rem;
+    margin: 1rem 0 1.5rem 0;
+}
+
 $scroll_offset : 2em;
 h1:before, .anchor:before { 
     content: ''; 

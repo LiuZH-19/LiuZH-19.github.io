@@ -3,7 +3,7 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
@@ -14,144 +14,244 @@ redirect_from:
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+{% assign url_qwen_music = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:W7OEmFMy1HYC_shieldsio.json" %}
+{% assign url_sonar = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:Y0pCki6q_DkC_shieldsio.json" %}
 {% assign url_starbech = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:Tyk-4Ss8FVUC_shieldsio.json" %}
 {% assign url_songgen = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:2osOgNQ5qMEC_shieldsio.json" %}
 {% assign url_songcomposer = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:qjMakFHDy7sC_shieldsio.json" %}
-{% assign url_ctrl = gsDataBaseUrl | append:"google-scholar-stats/iELd-Q0AAAAJ:9yKSN-GCB0IC_shieldsio.json" %}
+{% assign url_ctrl = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:9yKSN-GCB0IC_shieldsio.json" %}
+{% assign url_esg_journal = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:IjCSPb-OGe4C_shieldsio.json" %}
 {% assign url_esg = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:u-x6o8ySG0sC_shieldsio.json" %}
 {% assign url_ada = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:u5HHmVD_uO8C_shieldsio.json" %}
-
-
-
-
 
 <span class='anchor' id='about-me'></span>
 <div style="font-family:Georgia">
 
 Hi👋 nice to meet you!
 
-<br>I am a third-year Ph.D. student in the joint Ph.D. program between <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a> and <a href="https://www.buaa.edu.cn/">Beihang University</a>, supervised by <a href="http://dahua.site/">Prof. Dahua Lin</a>. 
+<br>I am a final-year Ph.D. candidate in the joint Ph.D. program between <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a> and <a href="https://www.buaa.edu.cn/">Beihang University</a>, supervised by <a href="http://dahua.site/">Prof. Dahua Lin</a>.
+I am currently a Research Intern on Alibaba's Qwen team. My work focuses on agentic multimodal systems and audio-visual understanding and reasoning, with additional contributions to Qwen-Music.
 Prior to that, I obtained my Bachelor’s degree in 2021 and completed two years of master’s study at Beihang University under the supervision of <a href="https://scholar.google.com/citations?user=QVHvhM4AAAAJ">Prof. Leilei Sun</a>, where my research focused on spatio-temporal data mining and time series analysis.
 
-<br><br>Since beginning my Ph.D., I have been focusing on:
-<br><b>◆ Multimodal Large Language Models (MLLMs): </b><i>Large Audio-Language Models (LALMs), Omni Language Models (OLMs), Audio-Visual Alignment / Perception / Reasoning, ... </i>
-<br><b>◆ Audio Generation: </b><i>Text-to-Song Generation, Controllable Song Generation & Editing, Spatial Audio Generation, ...</i>
+<br><br>My current research interests are:
+<br><b>◆ Agentic Multimodal LLMs: </b><i>multimodal agents, computer-use agents, tool/skill learning, agentic data generation, and evaluation.</i>
+<br><b>◆ Audio-Visual Understanding and Reasoning: </b><i>audio-visual instruction following, spatio-temporal reasoning, audio geo-localization, and robust multimodal evaluation.</i>
+<br><b>◆ Audio Generation: </b><i>text-to-song generation, controllable song generation and editing, and music generation systems.</i>
 
 <br><br>
-<font  style="color: #bf0000"><b>I am always open to research discussions and collaborations!</b></font>
- <br><font style="color: #bf0000"><b>I expect to graduate in 2027 and am currently seeking internship opportunities. 
-Please feel free to contact me if you believe my background and interests align with your work! 
- </b></font> <!-- #0016bfff -->
- <br><b>Email:</b>&nbsp; <span style="background: #d6eef8">liuzihan@buaa.edu.cn</span>&emsp;&emsp; <b>WeChat:</b>&nbsp; <span style="background: #d6eef8">ZinniaL19</span> 
+<font style="color: #bf0000"><b>I am on the job market and seeking Research Scientist opportunities centered on agentic MLLMs, audio-visual understanding and reasoning, and multimodal agents.</b></font>
+<br><font style="color: #bf0000"><b>I am always open to research discussions and collaborations.</b></font>
+<br><b>Email:</b>&nbsp; <span style="background: #d6eef8">liuzihan@buaa.edu.cn</span>&emsp;&emsp; <b>WeChat:</b>&nbsp; <span style="background: #d6eef8">ZinniaL19</span>
+</div>
+
+# Current Focus
+
+<div class="focus-grid">
+  <div class="focus-item">
+    <b>Agentic MLLMs & Computer-Use Agents</b>
+    <span>Developing multimodal agents that acquire reusable skills from human demonstrations and instructional videos, together with scalable rollout pipelines for agentic training data.</span>
+  </div>
+  <div class="focus-item">
+    <b>Audio-Visual Understanding</b>
+    <span>Advancing audio-visual instruction following and reasoning across temporal, spatial, and cross-modal evidence, with an emphasis on reliable evaluation.</span>
+  </div>
+  <div class="focus-item">
+    <b>Audio Generation Systems</b>
+    <span>Prior and ongoing work on song generation and editing, tokenizer and model training, and post-training for Qwen-Music.</span>
+  </div>
 </div>
 
 # 🔥 News
-- *2025.05*: &nbsp;🎉🎉 SongGen is accepted by ICML 2025.
-- *2025.05*: &nbsp;🎉🎉 SongComposer is accpeted by ACL 2025 main conference.
+- *2026.09*: &nbsp;Google Scholar citations exceed 600.
+- *2026.08*: &nbsp;SongGen-X demo page is online.
+- *2026.07*: &nbsp;Qwen-Music Technical Report is released on arXiv.
+- *2026.07*: &nbsp;The Sonar Moment is published in Findings of ACL 2026.
+- *2026*: &nbsp;STAR-Bench is accepted by ICLR 2026.
+- *2025.05*: &nbsp;SongGen is accepted by ICML 2025.
+- *2025.05*: &nbsp;SongComposer is accepted by ACL 2025 main conference.
 
+<span class='anchor' id='internship'></span>
+# 💼 Internship
+
+<div class="experience-box" markdown="1">
+**Alibaba Cloud Computing Co., Ltd. | Qwen Omni Team, Tongyi Lab**<br>
+*Research Intern, 2026.01 - Present*
+
+- **Video-to-Skill / Agentic Multimodal Systems:** I build an Omni Skill Creator plugin and rollout pipeline that distills reusable multimodal skills from human demonstrations and instructional videos, targeting complex customized and out-of-distribution computer-use tasks.
+- **Qwen-Music:** I contribute to model training, tokenizer ablations, dynamic tag dropout, data curriculum design, evaluation, and post-training with preference optimization and reinforcement learning.
+</div>
+
+<span class='anchor' id='publications'></span>
 # 📝 Publications   <a href='https://scholar.google.com/citations?user=iELd-Q0AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
-<!-- <p>（<b><sup>*</sup></b> equal contribution, <b>&dagger;</b> corresponding authors） </p> -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/starbench.png' alt="sym" width="100%"></div></div>
+<p><b><sup>*</sup></b> equal contribution.</p>
+
+<span class='anchor' id='audio-visual-understanding'></span>
+## Agentic MLLMs, Audio-Visual Understanding and Reasoning
+
+<div class='paper-box compact-paper'>
 <div class='paper-box-text' markdown="1">
-[STAR-Bench: Probing Deep Spatio-Temporal Reasoning as Audio 4D Intelligence](https://arxiv.org/abs/2510.24693) ***[arXiv]***
+[The Sonar Moment: An Audio Geo-Localization Benchmark for Audio-Language Models](https://aclanthology.org/2026.findings-acl.1297/) ***[Findings of ACL 2026]***
+
+Ruixing Zhang, <b>Zihan Liu</b>, Leilei Sun, Tongyu Zhu, Weifeng Lv
+
+<span>A benchmark for evaluating audio-language models on geo-localization, grounding audio perception in real-world spatial and geographic cues.</span>
+
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&citation_for_view=iELd-Q0AAAAJ:Y0pCki6q_DkC'><img src="https://img.shields.io/endpoint?url={{ url_sonar | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/starbench.png' alt="STAR-Bench" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[STAR-Bench: Probing Deep Spatio-Temporal Reasoning as Audio 4D Intelligence](https://arxiv.org/abs/2510.24693) ***[ICLR 2026]***
 
 <b>Zihan Liu<sup>*</sup></b>, Zhikang Niu<sup>*</sup>, Qiuyang Xiao, Zhisheng Zheng, Ruoqi Yuan, Yuhang Zang, Yuhang Cao, Xiaoyi Dong, Jianze Liang, Xie Chen, Leilei Sun, Dahua Lin, Jiaqi Wang
 
-<span>We formalize audio 4D intelligence, defined as reasoning over sound dynamics across time and 3D space, and introduce STAR-Bench to measure it, with a focus on linguistically hard-to-describe acoustic cues. </span>
+<span>We formalize audio 4D intelligence as reasoning over sound dynamics across time and 3D space, and introduce STAR-Bench to evaluate fine-grained perceptual and spatio-temporal reasoning beyond caption-level semantics.</span>
 
 [**Homepage**](https://internlm.github.io/StarBench/)|
 [**Github** ![](https://img.shields.io/github/stars/InternLM/StarBench)](https://github.com/InternLM/StarBench)|
+[**arXiv**](https://arxiv.org/abs/2510.24693)|
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&citation_for_view=iELd-Q0AAAAJ:Tyk-4Ss8FVUC'><img src="https://img.shields.io/endpoint?url={{ url_starbech | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/icml2025_songgen.png' alt="sym" width="100%"></div></div>
+<span class='anchor' id='audio-generation'></span>
+## Audio and Music Generation
+
+<div class='paper-box compact-paper'>
 <div class='paper-box-text' markdown="1">
-[SongGen: A Single Stage Auto-regressive Transformer for Text-to-Song Generation](https://arxiv.org/abs/2502.13128) ***[ICML 2025]***
+[Qwen-Music Technical Report](https://arxiv.org/abs/2607.11699) ***[arXiv 2026]***
+
+Jin Xu, Kangdi Wang, Ruibin Yuan, Shun Lei, Xiong Wang, Xize Cheng, Xueyao Zhang, Yang Zhang, Yiheng Chen, Yongqi Wang, Yue Wang, Zhifang Guo, <b>Zihan Liu</b>, Zijian Lin, Dake Guo, Hangrui Hu, Lei Xie, Linhan Ma, Wei Xue, Wenxiang Guo, Xinfa Zhu, Xipin Wei, Yangze Li, Yuanjun Lv, Yuxuan Wang, Yunfei Chu, Zhiyong Wu
+
+<span>A large-scale music generation system supporting text-to-music and cover-song generation, with tokenizer/model/render components and post-training for musicality and instruction following.</span>
+
+[**arXiv**](https://arxiv.org/abs/2607.11699)|
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&citation_for_view=iELd-Q0AAAAJ:W7OEmFMy1HYC'><img src="https://img.shields.io/endpoint?url={{ url_qwen_music | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted</div><img src='images/icml2025_songgen.png' alt="SongGen-X" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[SongGen-X: Unifying Versatile Editing for Autoregressive Song Generation via Mixture-of-Adapters](https://liuzh-19.github.io/SongGen-X/) ***[Submitted to TASLP]***
+
+<b>Zihan Liu</b>, Ruixing Zhang, Jiaqi Wang, Leilei Sun, Dahua Lin, Yuhang Zang
+
+<span>A unified song editing framework based on Mixture-of-Adapters, supporting fixed- and adaptive-duration inpainting, track-conditioned refinement, style transfer, and lyric editing with a frozen autoregressive backbone.</span>
+
+[**Homepage**](https://liuzh-19.github.io/SongGen-X/)|
+[**Github** ![](https://img.shields.io/github/stars/LiuZH-19/SongGen-X)](https://github.com/LiuZH-19/SongGen-X)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/icml2025_songgen.png' alt="SongGen" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[SongGen: A Single-Stage Auto-regressive Transformer for Text-to-Song Generation](https://arxiv.org/abs/2502.13128) ***[ICML 2025]***
 
 <b>Zihan Liu</b>, Shuangrui Ding, Zhixiong Zhang, Xiaoyi Dong, Pan Zhang, Yuhang Zang, Yuhang Cao, Dahua Lin, Jiaqi Wang
 
-<span>A single-stage auto-regressive transformer for text-to-song generation that offers versatile control via lyrics, descriptive text, and an optional reference voice while supporting both mixed and dual-track modes to meet diverse requirements</span>
+<span>A fully open-source single-stage autoregressive transformer for controllable song generation, supporting lyric/text control, optional reference voice, and mixed or dual-track output modes.</span>
 
 [**Homepage**](https://liuzh-19.github.io/SongGen/)|
 [**Github** ![](https://img.shields.io/github/stars/LiuZH-19/SongGen)](https://github.com/LiuZH-19/SongGen)|
+[**arXiv**](https://arxiv.org/abs/2502.13128)|
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&sortby=pubdate&citation_for_view=iELd-Q0AAAAJ:2osOgNQ5qMEC'><img src="https://img.shields.io/endpoint?url={{ url_songgen | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025</div><img src='images/acl2025_songcomposer.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025</div><img src='images/acl2025_songcomposer.png' alt="SongComposer" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[SongComposer: A Large Language Model for Lyric and Melody Generation in Song Composition](https://arxiv.org/abs/2402.17645) ***[ACL main 2025]***
+[SongComposer: A Large Language Model for Lyric and Melody Generation in Song Composition](https://arxiv.org/abs/2402.17645) ***[ACL Main 2025]***
 
 Shuangrui Ding<sup>*</sup>, <b>Zihan Liu<sup>*</sup></b>, Xiaoyi Dong, Pan Zhang, Rui Qian, Junhao Huang, Conghui He, Dahua Lin, Jiaqi Wang
 
-<span>A language large model that understands and generates melodies and lyrics in symbolic song representations.</span>
+<span>A language model that unifies lyric and melody generation in symbolic song representation, enabling multi-task song composition within a single framework.</span>
 
 [**Homepage**](https://pjlab-songcomposer.github.io/)|
-[**Github** ![](https://img.shields.io/github/stars/pjlab-songcomposer/songcomposer)](https://github.com/pjlab-songcomposer/songcomposer)｜
+[**Github** ![](https://img.shields.io/github/stars/pjlab-songcomposer/songcomposer)](https://github.com/pjlab-songcomposer/songcomposer)|
+[**arXiv**](https://arxiv.org/abs/2402.17645)|
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&sortby=pubdate&citation_for_view=iELd-Q0AAAAJ:qjMakFHDy7sC'><img src="https://img.shields.io/endpoint?url={{ url_songcomposer | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCAI 2024</div><img src='images/ijcai2024.png' alt="sym" width="100%"></div></div>   
+## Time Series Modeling
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2025</div><img src='images/kdd2022_esg.png' alt="Evolving graph structure learning" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[An NCDE-based framework for universal representation learning of time series](https://www.ijcai.org/proceedings/2024/0511.pdf) ***[IJCAI 2024]***
+[Evolving Graph Structure Learning for Multivariate Time Series Forecasting](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&citation_for_view=iELd-Q0AAAAJ:IjCSPb-OGe4C) ***[Knowledge-Based Systems 2025]***
+
+Junchen Ye<sup>*</sup>, <b>Zihan Liu<sup>*</sup></b>, Bowen Du, Leilei Sun, Weimiao Li, Yanjie Fu, Hui Xiong
+
+<span>The journal version of our graph structure learning work for multivariate time series forecasting.</span>
+
+[**Github** ![](https://img.shields.io/github/stars/LiuZH-19/ESG)](https://github.com/LiuZH-19/ESG)|
+<a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&citation_for_view=iELd-Q0AAAAJ:IjCSPb-OGe4C'><img src="https://img.shields.io/endpoint?url={{ url_esg_journal | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCAI 2024</div><img src='images/ijcai2024.png' alt="CTRL" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[An NCDE-based Framework for Universal Representation Learning of Time Series](https://www.ijcai.org/proceedings/2024/0511.pdf) ***[IJCAI 2024]***
 
 <b>Zihan Liu</b>, Bowen Du, Junchen Ye, Xianqing Wen, Leilei Sun
 
-<span>An NCDE-based framework learns universal time-series representations via joint reconstruction and contrastive self-supervision, delivering strong performance across diverse downstream tasks and showing notable robustness to missing data. </span>
+<span>An NCDE-based framework for learning universal time-series representations through reconstruction and contrastive self-supervision across downstream tasks.</span>
 
-
-[**Github** ![](https://img.shields.io/github/stars/LiuZH-19/CTRL)](https://github.com/LiuZH-19/CTRL)｜
+[**Github** ![](https://img.shields.io/github/stars/LiuZH-19/CTRL)](https://github.com/LiuZH-19/CTRL)|
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&citation_for_view=iELd-Q0AAAAJ:9yKSN-GCB0IC'><img src="https://img.shields.io/endpoint?url={{ url_ctrl | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 </div>
 </div>
 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2022</div><img src='images/kdd2022_esg.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2022</div><img src='images/kdd2022_esg.png' alt="ESG" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Learning the evolutionary and multi-scale graph structure for multivariate time series forecasting](https://arxiv.org/pdf/2206.13816) ***[KDD 2022]***
+[Learning the Evolutionary and Multi-scale Graph Structure for Multivariate Time Series Forecasting](https://arxiv.org/pdf/2206.13816) ***[KDD 2022]***
 
 Junchen Ye<sup>*</sup>, <b>Zihan Liu<sup>*</sup></b>, Bowen Du, Leilei Sun, Weimiao Li, Yanjie Fu, Hui Xiong
 
-<span>We propose an evolutionary and multi-scale graph learning framework that models dynamic dependencies among multivariate time series, achieving superior forecasting performance across domains such as transportation, energy, and finance.</span>
+<span>An evolutionary and multi-scale graph learning framework that models dynamic dependencies among multivariate time series.</span>
 
-[**Github** ![](https://img.shields.io/github/stars/LiuZH-19/ESG)](https://github.com/LiuZH-19/ESG)｜
+[**Github** ![](https://img.shields.io/github/stars/LiuZH-19/ESG)](https://github.com/LiuZH-19/ESG)|
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&sortby=pubdate&citation_for_view=iELd-Q0AAAAJ:u-x6o8ySG0sC'><img src="https://img.shields.io/endpoint?url={{ url_esg | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2022</div><img src='images/kbs2022.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2022</div><img src='images/kbs2022.png' alt="Ada-STNet" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Adaptive spatio-temporal graph neural network for traffic forecasting](https://www.sciencedirect.com/science/article/abs/pii/S0950705122000508) ***[KBS 2022]***
+[Adaptive Spatio-Temporal Graph Neural Network for Traffic Forecasting](https://www.sciencedirect.com/science/article/abs/pii/S0950705122000508) ***[Knowledge-Based Systems 2022]***
 
 Xuxiang Ta, <b>Zihan Liu</b>, Xiao Hu, Le Yu, Leilei Sun, Bowen Du
 
-<span>We propose a dynamic traffic graph structure with macro-level self-learning and micro-level self-adaptation, demonstrating strong interpretability and effectiveness in traffic forecasting. </span>
+<span>A dynamic traffic graph learning framework with macro-level self-learning and micro-level self-adaptation for traffic forecasting.</span>
 
-[**Github** ![](https://img.shields.io/github/stars/LiuZH-19/Ada-STNet)](https://github.com/LiuZH-19/Ada-STNet)｜
+[**Github** ![](https://img.shields.io/github/stars/LiuZH-19/Ada-STNet)](https://github.com/LiuZH-19/Ada-STNet)|
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&sortby=pubdate&citation_for_view=iELd-Q0AAAAJ:u5HHmVD_uO8C'><img src="https://img.shields.io/endpoint?url={{ url_ada | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 </div>
 </div>
 
+# Selected Projects
+
+<div class="project-list" markdown="1">
+- **Agentic multimodal skill learning:** video-to-skill pipelines for converting human demonstrations and instructional videos into reusable skills for computer-use agents.
+- **[STAR-Bench](https://internlm.github.io/StarBench/):** ICLR 2026 benchmark for audio 4D intelligence and deep spatio-temporal audio reasoning. [GitHub](https://github.com/InternLM/StarBench)
+- **[SongGen](https://liuzh-19.github.io/SongGen/):** ICML 2025 open-source single-stage text-to-song generation system. [GitHub](https://github.com/LiuZH-19/SongGen)
+- **[SongGen-X](https://liuzh-19.github.io/SongGen-X/):** unified demo system for controllable autoregressive song editing. [GitHub](https://github.com/LiuZH-19/SongGen-X)
+</div>
 
 # 🎖 Honors and Awards
-- *2023, 2024, 2025*, 1st Prize, Academic Outstanding Scholarship.
+- *2021-2025*, 1st Prize, Academic Outstanding Scholarship.
 - *2022.10*, National Scholarship, Ministry of Education of PRC.
+- *2022.12*, Outstanding Graduate Student.
 - *2021.09*, Graduate Entrance Scholarship.
-- *2021.06*, Excellent Bachelor’s Thesis; Outstanding Undergraduate Graduate. 
+- *2021.06*, Excellent Bachelor’s Thesis; Outstanding Undergraduate Graduate.
 
-# 📖 Educations
-- *2023.09 - Present*,  Ph.D. Candidate, Joint Ph.D. Program between Shanghai AI Laboratory and Beihang University.
-- *2021.09 - 2023.06*, M.Sc. in Computer Science and Technology, Beihang University (later transferred to the Ph.D. program).
-- *2017.09 - 2021.06*, B.Sc. in Computure Science and Technology, Beihang University.
- 
+# 📖 Education
+- *2023.09 - 2027.03*, Ph.D. Candidate, Joint Ph.D. Program between Shanghai AI Laboratory and Beihang University.
+- *2021.09 - 2023.06*, M.Sc. in Computer Science and Technology, Beihang University.
+- *2017.09 - 2021.06*, B.Sc. in Computer Science and Technology, Beihang University.
+
+<span class='anchor' id='services'></span>
 # 🖥️ Services
-- Conference reviewer for ICLR’25
+- Conference reviewer for ICLR 2025.
+
 <!-- # 💬 Invited Talks -->
-
-<!-- # 💻 Internships -->
-
-
-

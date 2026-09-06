@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zihan Liu"
-description              : ""
+description              : "Final-year Ph.D. candidate working on agentic multimodal LLMs, audio-visual understanding and reasoning, and audio generation."
 repository               : "LiuZH-19/LiuZH-19.github.io"
 google_scholar_stats_use_cdn : True
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zihan Liu"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Beihang University & Shanghai AI Laboratory"
+  bio              : "Final-year Ph.D. candidate | Agentic MLLMs & Audio-Visual Understanding"
   location         : "Shanghai, China"
   employer         :
   pubmed           : 

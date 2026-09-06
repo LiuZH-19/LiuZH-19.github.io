@@ -6,21 +6,23 @@ main:
   - title: "News"
     url: "/#-news"
 
+  - title: "Current Focus"
+    url: "/#current-focus"
+
+  - title: "Internship"
+    url: "/#internship"
+
   - title: "Publications"
-    url: "/#-publications"
+    url: "/#publications"
+
+  - title: "Projects"
+    url: "/#selected-projects"
 
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
 
-  - title: "Educations"
-    url: "/#-educations"
+  - title: "Education"
+    url: "/#-education"
 
   - title: "Services"
-    url: "/#-services"
-
-
-  # - title: "Invited Talks"
-  #   url: "/#-invited-talks"
-
-  # - title: "Internships"
-  #   url: "/#-internships"
+    url: "/#services"
