@@ -65,7 +65,6 @@ Prior to that, I obtained my Bachelor’s degree in 2021 and completed two years
 - *2026.09*: &nbsp;Google Scholar citations exceed 600.
 - *2026.08*: &nbsp;SongGen-X demo page is online.
 - *2026.07*: &nbsp;Qwen-Music Technical Report is released on arXiv.
-- *2026.07*: &nbsp;The Sonar Moment is published in Findings of ACL 2026.
 - *2026*: &nbsp;STAR-Bench is accepted by ICLR 2026.
 - *2025.05*: &nbsp;SongGen is accepted by ICML 2025.
 - *2025.05*: &nbsp;SongComposer is accepted by ACL 2025 main conference.
@@ -88,18 +87,6 @@ Prior to that, I obtained my Bachelor’s degree in 2021 and completed two years
 
 <span class='anchor' id='audio-visual-understanding'></span>
 ## Agentic MLLMs, Audio-Visual Understanding and Reasoning
-
-<div class='paper-box compact-paper'>
-<div class='paper-box-text' markdown="1">
-[The Sonar Moment: An Audio Geo-Localization Benchmark for Audio-Language Models](https://aclanthology.org/2026.findings-acl.1297/) ***[Findings of ACL 2026]***
-
-Ruixing Zhang, <b>Zihan Liu</b>, Leilei Sun, Tongyu Zhu, Weifeng Lv
-
-<span>A benchmark for evaluating audio-language models on geo-localization, grounding audio perception in real-world spatial and geographic cues.</span>
-
-<a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&citation_for_view=iELd-Q0AAAAJ:Y0pCki6q_DkC'><img src="https://img.shields.io/endpoint?url={{ url_sonar | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/starbench.png' alt="STAR-Bench" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -227,6 +214,14 @@ Xuxiang Ta, <b>Zihan Liu</b>, Xiao Hu, Le Yu, Leilei Sun, Bowen Du
 [**Github** ![](https://img.shields.io/github/stars/LiuZH-19/Ada-STNet)](https://github.com/LiuZH-19/Ada-STNet)|
 <a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&sortby=pubdate&citation_for_view=iELd-Q0AAAAJ:u5HHmVD_uO8C'><img src="https://img.shields.io/endpoint?url={{ url_ada | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 </div>
+</div>
+
+## Other Publications
+
+<div class="other-publications" markdown="1">
+- **[The Sonar Moment: An Audio Geo-Localization Benchmark for Audio-Language Models](https://aclanthology.org/2026.findings-acl.1297/)** ***[Findings of ACL 2026]***<br>
+  Ruixing Zhang, <b>Zihan Liu</b>, Leilei Sun, Tongyu Zhu, Weifeng Lv<br>
+  [**Paper**](https://aclanthology.org/2026.findings-acl.1297/) | <a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&citation_for_view=iELd-Q0AAAAJ:Y0pCki6q_DkC'><img src="https://img.shields.io/endpoint?url={{ url_sonar | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 </div>
 
 # Selected Projects

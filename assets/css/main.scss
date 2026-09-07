@@ -96,6 +96,17 @@
     }
 }
 
+.other-publications {
+    margin: .75rem 0 2rem 0;
+    padding-top: .75rem;
+    border-top: 1px solid #e5e7eb;
+    font-size: .95em;
+
+    li {
+        margin-bottom: .75rem;
+    }
+}
+
 .focus-grid {
     display: grid;
     grid-template-columns: 1fr;
