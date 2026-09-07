@@ -119,7 +119,7 @@ Ruixing Zhang, <b>Zihan Liu</b>, Leilei Sun, Tongyu Zhu, Weifeng Lv
 <span class='anchor' id='audio-generation'></span>
 ## Audio and Music Generation
 
-<div class='paper-box compact-paper'>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/qwen_music_framework.jpg' alt="Qwen-Music inference framework" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Qwen-Music Technical Report](https://arxiv.org/abs/2607.11699) ***[arXiv 2026]***
 
