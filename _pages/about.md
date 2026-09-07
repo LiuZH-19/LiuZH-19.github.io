@@ -119,7 +119,7 @@ Jin Xu, Kangdi Wang, Ruibin Yuan, Shun Lei, Xiong Wang, Xize Cheng, Xueyao Zhang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted</div><img src='images/icml2025_songgen.png' alt="SongGen-X" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted</div><img src='images/songgen_x_framework.png' alt="SongGen-X Mixture-of-Adapters framework" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [SongGen-X: Unifying Versatile Editing for Autoregressive Song Generation via Mixture-of-Adapters](https://liuzh-19.github.io/SongGen-X/) ***[Submitted to TASLP]***
 
