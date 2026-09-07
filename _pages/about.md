@@ -224,15 +224,6 @@ Xuxiang Ta, <b>Zihan Liu</b>, Xiao Hu, Le Yu, Leilei Sun, Bowen Du
   [**Paper**](https://aclanthology.org/2026.findings-acl.1297/) | <a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&citation_for_view=iELd-Q0AAAAJ:Y0pCki6q_DkC'><img src="https://img.shields.io/endpoint?url={{ url_sonar | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 </div>
 
-# Selected Projects
-
-<div class="project-list" markdown="1">
-- **Agentic multimodal skill learning:** video-to-skill pipelines for converting human demonstrations and instructional videos into reusable skills for computer-use agents.
-- **[STAR-Bench](https://internlm.github.io/StarBench/):** ICLR 2026 benchmark for audio 4D intelligence and deep spatio-temporal audio reasoning. [GitHub](https://github.com/InternLM/StarBench)
-- **[SongGen](https://liuzh-19.github.io/SongGen/):** ICML 2025 open-source single-stage text-to-song generation system. [GitHub](https://github.com/LiuZH-19/SongGen)
-- **[SongGen-X](https://liuzh-19.github.io/SongGen-X/):** unified demo system for controllable autoregressive song editing. [GitHub](https://github.com/LiuZH-19/SongGen-X)
-</div>
-
 # 🎖 Honors and Awards
 - *2021-2025*, 1st Prize, Academic Outstanding Scholarship.
 - *2022.10*, National Scholarship, Ministry of Education of PRC.
