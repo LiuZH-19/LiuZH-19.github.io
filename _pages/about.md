@@ -76,7 +76,7 @@ Before starting my Ph.D., I received my Bachelor’s degree from Beihang Univers
 *Research Intern, 2026.01 - Present*
 
 - **Video-to-Skill (Core Contributor):** I distill reusable and transferable multimodal skills from human demonstrations and instructional videos to guide Computer Use Agents in completing complex customized or out-of-distribution (OOD) tasks. I build the Omni Skill Creator Plugin, spanning 17 categories of office and professional software, and generate high-quality agentic trajectory data for Omni model training and CUA capability enhancement.
-- **Qwen-Music (Core Contributor) [[Technical Report](https://arxiv.org/abs/2607.11699)]:** I train a Megatron-based autoregressive Transformer and participate in Music Tokenizer ablation studies and iterations. I improve model musicality through dynamic Tag Dropout and data stratification strategies, build and refine multidimensional evaluation metrics, and conduct post-training with DPO and GRPO to improve performance across multiple dimensions.
+- **Qwen-Music (Core Contributor) [[Technical Report](https://arxiv.org/abs/2607.11699)]:** I contribute to the development of Qwen-Music across model training, evaluation, and post-training, with a focus on improving overall generation quality.
 </div>
 
 <span class='anchor' id='publications'></span>
