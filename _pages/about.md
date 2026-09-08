@@ -108,8 +108,7 @@ Before starting my Ph.D., I received my Bachelor’s degree from Beihang Univers
 <div class='paper-box-text' markdown="1">
 [Qwen-Music Technical Report](https://arxiv.org/abs/2607.11699) ***[arXiv 2026]***
 
-**Core Contributors (alphabetical):** Jin Xu, Kangdi Wang, Ruibin Yuan, Shun Lei, Xiong Wang, Xize Cheng, Xueyao Zhang, Yang Zhang, Yiheng Chen, Yongqi Wang, Yue Wang, Zhifang Guo, Zhiyong Wu, <b>Zihan Liu</b>, Zijian Lin<br>
-**Contributors (alphabetical):** Dake Guo, Hangrui Hu, Lei Xie, Linhan Ma, Wei Xue, Wenxiang Guo, Xinfa Zhu, Xipin Wei, Yangze Li, Yuanjun Lv, Yuxuan Wang, Yunfei Chu
+**Core Contributors (alphabetical):** Jin Xu, Kangdi Wang, Ruibin Yuan, Shun Lei, Xiong Wang, Xize Cheng, Xueyao Zhang, Yang Zhang, Yiheng Chen, Yongqi Wang, Yue Wang, Zhifang Guo, Zhiyong Wu, <b>Zihan Liu</b>, Zijian Lin
 
 <span>A large-scale music generation system supporting text-to-music and cover-song generation, with tokenizer/model/render components and post-training for musicality and instruction following.</span>
 
