@@ -32,7 +32,7 @@ Hi👋 nice to meet you!
 <br>I am a final-year Ph.D. candidate in the joint Ph.D. program between <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a> and <a href="https://www.buaa.edu.cn/">Beihang University</a>, supervised by <a href="http://dahua.site/">Prof. Dahua Lin</a>. My doctoral research focuses on multimodal foundation models, with an emphasis on audio-visual understanding and generation.
 Before starting my Ph.D., I received my Bachelor’s degree from Beihang University in 2021 and completed two years of master’s study there under the supervision of <a href="https://dbw-buaa.github.io/">Prof. Bowen Du</a>, working on representation learning and forecasting for multivariate time series.
 
-<br><br>I am currently a Research Intern with Alibaba's Qwen Omni team and a core contributor to Video-to-Skill and Qwen-Music. My work spans agentic MLLMs, audio-visual understanding, and audio generation, from learning transferable multimodal skills from human demonstrations and instructional videos to training and post-training large-scale autoregressive music models.
+<br><br>I am currently a Research Intern with Alibaba's Qwen Omni team and a core contributor to Video-to-Skill and Qwen-Music. My work spans agentic MLLMs, audio-visual understanding, and audio generation.
 
 <br><br>My current research interests are:
 <br><b>◆ Agentic MLLMs: </b><i>multimodal agents, computer-use agents, skill learning from demonstrations, agent harnesses and plugins, and scalable rollout data.</i>
