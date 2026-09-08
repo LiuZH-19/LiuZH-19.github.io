@@ -225,6 +225,6 @@ Xuxiang Ta, <b>Zihan Liu</b>, Xiao Hu, Le Yu, Leilei Sun, Bowen Du
 
 <span class='anchor' id='services'></span>
 # 🖥️ Services
-- **Selected conference reviewing service:** ICLR, NeurIPS, ICML, and others. [Full reviewing record on OpenReview](https://openreview.net/profile?id=%7EZihan_Liu5).
+- **Selected conference reviewing service:** ICLR, NeurIPS, ICML, and others.
 
 <!-- # 💬 Invited Talks -->
