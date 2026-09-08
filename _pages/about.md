@@ -28,7 +28,7 @@ redirect_from:
 
 Hi👋 nice to meet you!
 
-<br>I am a final-year Ph.D. candidate in the joint Ph.D. program between <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a> and <a href="https://www.buaa.edu.cn/">Beihang University</a>, supervised by <a href="http://dahua.site/">Prof. Dahua Lin</a>. At Shanghai AI Laboratory, I work closely with Jiaqi Wang and Yuhang Zang on multimodal LLMs, with a focus on audio-visual understanding and generation.
+<br>I am a final-year Ph.D. candidate in the joint Ph.D. program between <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a> and <a href="https://www.buaa.edu.cn/">Beihang University</a>, supervised by <a href="http://dahua.site/">Prof. Dahua Lin</a>. At Shanghai AI Laboratory, I work closely with <a href="https://myownskyw7.github.io/">Jiaqi Wang</a> and <a href="https://yuhangzang.github.io/">Yuhang Zang</a> on multimodal LLMs.
 Before starting my Ph.D., I received my Bachelor’s degree from Beihang University in 2021 and completed two years of master’s study there under the supervision of <a href="https://dbw-buaa.github.io/">Prof. Bowen Du</a>, working on representation learning and forecasting for multivariate time series.
 
 <br><br>I am currently a Research Intern with Alibaba's Qwen Omni team and a core contributor to Video-to-Skill and Qwen-Music. My work spans agentic MLLMs, audio-visual understanding, and audio generation.
