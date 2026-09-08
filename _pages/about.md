@@ -20,7 +20,6 @@ redirect_from:
 {% assign url_songgen = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:2osOgNQ5qMEC_shieldsio.json" %}
 {% assign url_songcomposer = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:qjMakFHDy7sC_shieldsio.json" %}
 {% assign url_ctrl = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:9yKSN-GCB0IC_shieldsio.json" %}
-{% assign url_esg_journal = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:IjCSPb-OGe4C_shieldsio.json" %}
 {% assign url_esg = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:u-x6o8ySG0sC_shieldsio.json" %}
 {% assign url_ada = gsDataBaseUrl | append: "google-scholar-stats/iELd-Q0AAAAJ:u5HHmVD_uO8C_shieldsio.json" %}
 
@@ -162,19 +161,6 @@ Shuangrui Ding<sup>*</sup>, <b>Zihan Liu<sup>*</sup></b>, Xiaoyi Dong, Pan Zhang
 </div>
 
 ## Time Series Modeling
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2025</div><img src='images/kbs2025_egc.jpg' alt="EGC framework with static and evolutionary graph structure learners" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-[Evolving Graph Structure Learning for Multivariate Time Series Forecasting](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&citation_for_view=iELd-Q0AAAAJ:IjCSPb-OGe4C) ***[Knowledge-Based Systems 2025]***
-
-Junchen Ye<sup>*</sup>, <b>Zihan Liu<sup>*</sup></b>, Bowen Du, Leilei Sun, Weimiao Li, Yanjie Fu, Hui Xiong
-
-<span>The journal version of our graph structure learning work for multivariate time series forecasting.</span>
-
-[**Github** ![](https://img.shields.io/github/stars/LiuZH-19/ESG)](https://github.com/LiuZH-19/ESG)|
-<a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&citation_for_view=iELd-Q0AAAAJ:IjCSPb-OGe4C'><img src="https://img.shields.io/endpoint?url={{ url_esg_journal | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCAI 2024</div><img src='images/ijcai2024.png' alt="CTRL" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
