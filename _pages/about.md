@@ -40,7 +40,7 @@ Before starting my Ph.D., I received my Bachelor’s degree from Beihang Univers
 <br><b>◆ Audio Generation: </b><i>large-scale autoregressive music models, audio tokenization, controllable song generation and editing, and post-training.</i>
 
 <br><br>
-<font style="color: #bf0000"><b>I am on the job market and seeking Research Scientist opportunities in agentic MLLMs, audio-visual understanding, and audio generation.</b></font>
+<font style="color: #bf0000"><b>I am on the job market and seeking Research Scientist opportunities that build on my experience in agentic MLLMs, audio-visual understanding, and audio generation. Beyond these core areas, I am also excited about embodied intelligence, interactive multimodal systems, and audio and video generation, and would welcome opportunities to explore their intersections.</b></font>
 <br><font style="color: #bf0000"><b>I am always open to research discussions and collaborations.</b></font>
 <br><b>Email:</b>&nbsp; <span style="background: #d6eef8">liuzihan@buaa.edu.cn</span>&emsp;&emsp; <b>WeChat:</b>&nbsp; <span style="background: #d6eef8">ZinniaL19</span>
 </div>
