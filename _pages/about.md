@@ -29,7 +29,7 @@ redirect_from:
 
 Hi👋 nice to meet you!
 
-<br>I am a final-year Ph.D. candidate in the joint Ph.D. program between <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a> and <a href="https://www.buaa.edu.cn/">Beihang University</a>, supervised by <a href="http://dahua.site/">Prof. Dahua Lin</a>. My doctoral research focuses on multimodal foundation models, with an emphasis on audio-visual understanding and generation.
+<br>I am a final-year Ph.D. candidate in the joint Ph.D. program between <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a> and <a href="https://www.buaa.edu.cn/">Beihang University</a>, supervised by <a href="http://dahua.site/">Prof. Dahua Lin</a>. At Shanghai AI Laboratory, I work closely with Jiaqi Wang and Yuhang Zang on multimodal LLMs, with a focus on audio-visual understanding and generation.
 Before starting my Ph.D., I received my Bachelor’s degree from Beihang University in 2021 and completed two years of master’s study there under the supervision of <a href="https://dbw-buaa.github.io/">Prof. Bowen Du</a>, working on representation learning and forecasting for multivariate time series.
 
 <br><br>I am currently a Research Intern with Alibaba's Qwen Omni team and a core contributor to Video-to-Skill and Qwen-Music. My work spans agentic MLLMs, audio-visual understanding, and audio generation.
@@ -40,7 +40,7 @@ Before starting my Ph.D., I received my Bachelor’s degree from Beihang Univers
 <br><b>◆ Audio Generation: </b><i>large-scale autoregressive music models, audio tokenization, controllable song generation and editing, and post-training.</i>
 
 <br><br>
-<font style="color: #bf0000"><b>I am on the job market and seeking Research Scientist opportunities that build on my experience in agentic MLLMs, audio-visual understanding, and audio generation. Beyond these core areas, I am also excited about embodied intelligence, interactive multimodal systems, and audio and video generation, and would welcome opportunities to explore their intersections.</b></font>
+<font style="color: #bf0000"><b>I am on the job market and seeking Research Scientist opportunities that build on my experience in agentic MLLMs, audio-visual understanding, and audio generation. Beyond these core areas, I am also excited about embodied intelligence, interactive multimodal systems, and video generation, and am eager to explore these emerging directions.</b></font>
 <br><font style="color: #bf0000"><b>I am always open to research discussions and collaborations.</b></font>
 <br><b>Email:</b>&nbsp; <span style="background: #d6eef8">liuzihan@buaa.edu.cn</span>&emsp;&emsp; <b>WeChat:</b>&nbsp; <span style="background: #d6eef8">ZinniaL19</span>
 </div>
@@ -63,8 +63,6 @@ Before starting my Ph.D., I received my Bachelor’s degree from Beihang Univers
 </div>
 
 # 🔥 News
-- *2026.09*: &nbsp;Google Scholar citations exceed 600.
-- *2026.08*: &nbsp;SongGen-X demo page is online.
 - *2026.07*: &nbsp;Qwen-Music Technical Report is released on arXiv.
 - *2026*: &nbsp;STAR-Bench is accepted by ICLR 2026.
 - *2025.05*: &nbsp;SongGen is accepted by ICML 2025.
@@ -217,6 +215,7 @@ Xuxiang Ta, <b>Zihan Liu</b>, Xiao Hu, Le Yu, Leilei Sun, Bowen Du
 </div>
 </div>
 
+{% comment %}
 ## Other Publications
 
 <div class="other-publications" markdown="1">
@@ -224,6 +223,7 @@ Xuxiang Ta, <b>Zihan Liu</b>, Xiao Hu, Le Yu, Leilei Sun, Bowen Du
   Ruixing Zhang, <b>Zihan Liu</b>, Leilei Sun, Tongyu Zhu, Weifeng Lv<br>
   [**Paper**](https://aclanthology.org/2026.findings-acl.1297/) | <a href='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&citation_for_view=iELd-Q0AAAAJ:Y0pCki6q_DkC'><img src="https://img.shields.io/endpoint?url={{ url_sonar | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 </div>
+{% endcomment %}
 
 # 🎖 Honors and Awards
 - *2021-2025*, 1st Prize, Academic Outstanding Scholarship.
