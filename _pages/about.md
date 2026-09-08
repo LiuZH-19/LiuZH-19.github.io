@@ -29,17 +29,18 @@ redirect_from:
 
 Hi👋 nice to meet you!
 
-<br>I am a final-year Ph.D. candidate in the joint Ph.D. program between <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a> and <a href="https://www.buaa.edu.cn/">Beihang University</a>, supervised by <a href="http://dahua.site/">Prof. Dahua Lin</a>.
-I am currently a Research Intern on Alibaba's Qwen team. My work focuses on agentic multimodal systems and audio-visual understanding and reasoning, with additional contributions to Qwen-Music.
-Prior to that, I obtained my Bachelor’s degree in 2021 and completed two years of master’s study at Beihang University under the supervision of <a href="https://scholar.google.com/citations?user=QVHvhM4AAAAJ">Prof. Leilei Sun</a>, where my research focused on spatio-temporal data mining and time series analysis.
+<br>I am a final-year Ph.D. candidate in the joint Ph.D. program between <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a> and <a href="https://www.buaa.edu.cn/">Beihang University</a>, supervised by <a href="http://dahua.site/">Prof. Dahua Lin</a>. My doctoral research focuses on multimodal foundation models, with an emphasis on audio-visual understanding and generation.
+Before starting my Ph.D., I received my Bachelor’s degree from Beihang University in 2021 and completed two years of master’s study there under the supervision of <a href="https://dbw-buaa.github.io/">Prof. Bowen Du</a>, working on representation learning and forecasting for multivariate time series.
+
+<br><br>I am currently a Research Intern with Alibaba's Qwen Omni team and a core contributor to Video-to-Skill and Qwen-Music. My work spans agentic MLLMs, audio-visual understanding, and audio generation, from learning transferable multimodal skills from human demonstrations and instructional videos to training and post-training large-scale autoregressive music models.
 
 <br><br>My current research interests are:
-<br><b>◆ Agentic Multimodal LLMs: </b><i>multimodal agents, computer-use agents, tool/skill learning, agentic data generation, and evaluation.</i>
-<br><b>◆ Audio-Visual Understanding and Reasoning: </b><i>audio-visual instruction following, spatio-temporal reasoning, audio geo-localization, and robust multimodal evaluation.</i>
-<br><b>◆ Audio Generation: </b><i>text-to-song generation, controllable song generation and editing, and music generation systems.</i>
+<br><b>◆ Agentic MLLMs: </b><i>multimodal agents, computer-use agents, skill learning from demonstrations, agent harnesses and plugins, and scalable rollout data.</i>
+<br><b>◆ Audio-Visual Understanding: </b><i>audio-visual instruction following, deep spatio-temporal reasoning, cross-modal alignment, and reliable evaluation.</i>
+<br><b>◆ Audio Generation: </b><i>large-scale autoregressive music models, audio tokenization, controllable song generation and editing, and post-training.</i>
 
 <br><br>
-<font style="color: #bf0000"><b>I am on the job market and seeking Research Scientist opportunities centered on agentic MLLMs, audio-visual understanding and reasoning, and multimodal agents.</b></font>
+<font style="color: #bf0000"><b>I am on the job market and seeking Research Scientist opportunities in agentic MLLMs, audio-visual understanding, and audio generation.</b></font>
 <br><font style="color: #bf0000"><b>I am always open to research discussions and collaborations.</b></font>
 <br><b>Email:</b>&nbsp; <span style="background: #d6eef8">liuzihan@buaa.edu.cn</span>&emsp;&emsp; <b>WeChat:</b>&nbsp; <span style="background: #d6eef8">ZinniaL19</span>
 </div>
@@ -57,7 +58,7 @@ Prior to that, I obtained my Bachelor’s degree in 2021 and completed two years
   </div>
   <div class="focus-item">
     <b>Audio Generation Systems</b>
-    <span>Prior and ongoing work on song generation and editing, tokenizer and model training, and post-training for Qwen-Music.</span>
+    <span>Developing music generation systems through tokenizer and model training, controllable song generation and editing, and post-training for Qwen-Music.</span>
   </div>
 </div>
 
@@ -106,7 +107,7 @@ Prior to that, I obtained my Bachelor’s degree in 2021 and completed two years
 <span class='anchor' id='audio-generation'></span>
 ## Audio and Music Generation
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/qwen_music_framework.jpg' alt="Qwen-Music inference framework" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/qwen_music_framework.png' alt="Qwen-Music inference framework" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Qwen-Music Technical Report](https://arxiv.org/abs/2607.11699) ***[arXiv 2026]***
 
@@ -164,7 +165,7 @@ Shuangrui Ding<sup>*</sup>, <b>Zihan Liu<sup>*</sup></b>, Xiaoyi Dong, Pan Zhang
 
 ## Time Series Modeling
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2025</div><img src='images/kdd2022_esg.png' alt="Evolving graph structure learning" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2025</div><img src='images/kbs2025_egc.jpg' alt="EGC framework with static and evolutionary graph structure learners" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Evolving Graph Structure Learning for Multivariate Time Series Forecasting](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iELd-Q0AAAAJ&citation_for_view=iELd-Q0AAAAJ:IjCSPb-OGe4C) ***[Knowledge-Based Systems 2025]***
 
@@ -238,6 +239,6 @@ Xuxiang Ta, <b>Zihan Liu</b>, Xiao Hu, Le Yu, Leilei Sun, Bowen Du
 
 <span class='anchor' id='services'></span>
 # 🖥️ Services
-- Conference reviewer for ICLR 2025.
+- **Selected conference reviewing service:** ICLR 2025. [Full reviewing record on OpenReview](https://openreview.net/profile?id=%7EZihan_Liu5).
 
 <!-- # 💬 Invited Talks -->

@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zihan Liu"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Final-year Ph.D. candidate | Agentic MLLMs & Audio-Visual Understanding"
+  bio              : "Final-year Ph.D. candidate | Agentic MLLMs, Audio-Visual Understanding & Audio Generation"
   location         : "Shanghai, China"
   employer         :
   pubmed           : 
