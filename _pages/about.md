@@ -75,8 +75,8 @@ Before starting my Ph.D., I received my Bachelor’s degree from Beihang Univers
 **Alibaba Cloud Computing Co., Ltd. | Qwen Omni Team, Tongyi Lab**<br>
 *Research Intern, 2026.01 - Present*
 
-- **Video-to-Skill / Agentic Multimodal Systems:** I build an Omni Skill Creator plugin and rollout pipeline that distills reusable multimodal skills from human demonstrations and instructional videos, targeting complex customized and out-of-distribution computer-use tasks.
-- **Qwen-Music:** I contribute to model training, tokenizer ablations, dynamic tag dropout, data curriculum design, evaluation, and post-training with preference optimization and reinforcement learning.
+- **Video-to-Skill (Core Contributor):** I distill reusable and transferable multimodal skills from human demonstrations and instructional videos to guide Computer Use Agents in completing complex customized or out-of-distribution (OOD) tasks. I build the Omni Skill Creator Plugin, spanning 17 categories of office and professional software, and generate high-quality agentic trajectory data for Omni model training and CUA capability enhancement.
+- **Qwen-Music (Core Contributor) [[Technical Report](https://arxiv.org/abs/2607.11699)]:** I train a Megatron-based autoregressive Transformer and participate in Music Tokenizer ablation studies and iterations. I improve model musicality through dynamic Tag Dropout and data stratification strategies, build and refine multidimensional evaluation metrics, and conduct post-training with DPO and GRPO to improve performance across multiple dimensions.
 </div>
 
 <span class='anchor' id='publications'></span>
