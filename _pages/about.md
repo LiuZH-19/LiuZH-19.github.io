@@ -84,7 +84,7 @@ Before starting my Ph.D., I received my Bachelor’s degree from Beihang Univers
 <p><b><sup>*</sup></b> equal contribution.</p>
 
 <span class='anchor' id='audio-visual-understanding'></span>
-## Agentic MLLMs, Audio-Visual Understanding and Reasoning
+## Audio Understanding and Reasoning
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/starbench.png' alt="STAR-Bench" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
