@@ -33,11 +33,6 @@ Before starting my Ph.D., I received my Bachelor’s degree from Beihang Univers
 
 <br><br>I am currently a Research Intern with Alibaba's Qwen Omni team and a core contributor to Video-to-Skill and Qwen-Music. My work spans agentic MLLMs, audio-visual understanding, and audio generation.
 
-<br><br>My current research interests are:
-<br><b>◆ Agentic MLLMs: </b><i>multimodal agents, computer-use agents, skill learning from demonstrations, agent harnesses and plugins, and scalable rollout data.</i>
-<br><b>◆ Audio-Visual Understanding: </b><i>audio-visual instruction following, deep spatio-temporal reasoning, cross-modal alignment, and reliable evaluation.</i>
-<br><b>◆ Audio Generation: </b><i>large-scale autoregressive music models, audio tokenization, controllable song generation and editing, and post-training.</i>
-
 <br><br>
 <font style="color: #bf0000"><b>I am on the job market and seeking Research Scientist opportunities that build on my experience in agentic MLLMs, audio-visual understanding, and audio generation. Beyond these core areas, I am also excited about embodied intelligence, interactive multimodal systems, and video generation, and am eager to explore these emerging directions.</b></font>
 <br><font style="color: #bf0000"><b>I am always open to research discussions and collaborations.</b></font>
